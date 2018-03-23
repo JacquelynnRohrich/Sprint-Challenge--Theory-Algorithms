@@ -51,4 +51,18 @@ both `antelope` and `antelopes`.)
 
   * see file lion.png for answer
 
-  
+##       ESC[12;45f
+
+  moves the cursor to line 12, column 45.
+
+      ESC[1m
+
+  changes the font to bold.
+
+  Come up with regexes for the two above sequences. The one to set the
+    cursor position should accept any digits for the row and column. The
+    bold sequence need only accept `1` (and is a trivial regex). (ESC is
+    a single character which can be represented with `\e` in the regex.)
+
+  * /ESC\[\d+;d+f/g
+  * /ESC\[1m/g
