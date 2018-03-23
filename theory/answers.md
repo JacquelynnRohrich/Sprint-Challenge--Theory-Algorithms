@@ -32,3 +32,11 @@ both `antelope` and `antelopes`.)
 
 * \d\d?\d?\d?-\d\d?-\d\d?
 (any digits with any digit being optional separated by - )
+
+* A lion can be sleeping, eating, hunting, or preening. Draw a state
+  machine diagram for the lion and label the transition events that
+  cause state transitions.
+
+  open file lion.png for answer
+
+  
